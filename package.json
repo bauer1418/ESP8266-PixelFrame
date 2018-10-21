@@ -1,0 +1,13 @@
+{
+  "name": "pixelbuilder",
+  "version": "0.1.0",
+  "dependencies": {
+    "concurrently": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "(cd client && npm install) && (cd server && npm install)",
+    "start": "concurrently \"cd client && PORT=3000 npm start\" \"cd server && PORT=3001 npm start\"",
+    "build": "(cd client && npm run build)"
+  }
+}

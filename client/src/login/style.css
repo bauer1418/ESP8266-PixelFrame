@@ -1,0 +1,10 @@
+
+.login {
+	padding: 10px;
+}
+
+.login .loginError {
+	color: red;
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
